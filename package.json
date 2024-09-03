@@ -1,8 +1,8 @@
 {
   "name": "vscode-arduino",
-  "displayName": "Arduino",
-  "description": "Arduino for Visual Studio Code",
-  "version": "0.5.0",
+  "displayName": "Arduino (deprecated)",
+  "description": "Arduino for Visual Studio Code. This extension is deprecated and no longer maintained.",
+  "version": "0.7.1",
   "publisher": "vsciot-vscode",
   "preview": true,
   "engines": {
@@ -344,6 +344,7 @@
     "@types/winreg": "^1.2.30",
     "@typescript-eslint/eslint-plugin": "^4.31.1",
     "@typescript-eslint/parser": "^4.31.1",
+    "@vscode/vsce": "^2.16.0",
     "acorn": "^7.4.0",
     "ajv": "^6.12.3",
     "babel-loader": "^8.2.2",
@@ -365,7 +366,7 @@
     "gulp-typescript": "^5.0.1",
     "minimist": "^1.2.6",
     "mocha": "^6.2.3",
-    "node-gyp": "^6.1.0",
+    "node-gyp": "^8.4.0",
     "plugin-error": "^1.0.1",
     "tslint": "^5.20.1",
     "typemoq": "^1.6.0",
@@ -379,7 +380,7 @@
     "body-parser": "^1.16.1",
     "cocopa": "0.0.13",
     "eventemitter2": "^4.1.0",
-    "express": "^4.14.1",
+    "express": "^4.19.2",
     "extract-zip": "^2.0.1",
     "glob": "^7.1.1",
     "iconv-lite": "^0.4.18",
@@ -395,7 +396,8 @@
     "async": "~3.2.3",
     "node-sass": "^7.0.0",
     "es5-ext": "0.10.53",
-    "string_decoder": "https://github.com/microsoft/vscode-arduino/releases/download/v0.4.12-rc2/string_decoder-10.0.0.tgz"
+    "string_decoder": "https://github.com/microsoft/vscode-arduino/releases/download/v0.4.12-rc2/string_decoder-10.0.0.tgz",
+    "semver": "~7.5.2"
   },
   "vsce": {
     "ignoreFile": "out/.vscodeignore"
